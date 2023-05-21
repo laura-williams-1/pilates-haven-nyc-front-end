@@ -1,7 +1,7 @@
-import Studio from "../Components/Studio";
+import Studios from "../Components/Studios";
 
 const Index = () => {
-  return <Studio></Studio>;
+  return <Studios></Studios>;
 };
 
 export default Index;

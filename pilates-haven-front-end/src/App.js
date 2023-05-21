@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/studios" element={<Show />} />
-        <Route path="/studios/:id" element={<Index />} />
+        <Route path="/studios" element={<Index />} />
+        <Route path="/studios/:id" element={<Show />} />
         <Route path="/studios/:id/edit" element={<Update />} />
         <Route path="/studios/new" element={<New />} />
         <Route path="*" element={<NotFound />} />

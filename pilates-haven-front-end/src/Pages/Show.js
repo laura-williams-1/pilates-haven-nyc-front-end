@@ -1,7 +1,7 @@
-import Studios from "../Components/Studios";
+import StudioDetails from "../Components/StudioDetails";
 
 const Show = () => {
-  return <Studios></Studios>;
+  return <StudioDetails />;
 };
 
 export default Show;
