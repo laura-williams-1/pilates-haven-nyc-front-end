@@ -1,5 +1,8 @@
+import axios from "axios";
+import { useState, useEffect } from "react";
+
 const Studios = () => {
-  return <h1>Studios Component</h1>;
+  return <div className="studios"></div>;
 };
 
 export default Studios;
