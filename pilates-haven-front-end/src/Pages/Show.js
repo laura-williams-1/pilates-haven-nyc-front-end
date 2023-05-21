@@ -1,5 +1,7 @@
+import Studios from "../Components/Studios";
+
 const Show = () => {
-  return <h1>Show Component</h1>;
+  return <Studios></Studios>;
 };
 
 export default Show;

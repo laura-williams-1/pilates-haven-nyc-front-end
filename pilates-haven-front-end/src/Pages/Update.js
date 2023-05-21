@@ -1,5 +1,7 @@
+import StudioForm from "../Components/StudioForm";
+
 const Update = () => {
-  return <h1>Update Component</h1>;
+  return <StudioForm></StudioForm>;
 };
 
 export default Update;

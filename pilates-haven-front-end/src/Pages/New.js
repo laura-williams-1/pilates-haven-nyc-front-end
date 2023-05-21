@@ -1,5 +1,7 @@
+import CreateStudio from "../Components/CreateStudio";
+
 const New = () => {
-  return <h1>New Component</h1>;
+  return <CreateStudio></CreateStudio>;
 };
 
 export default New;

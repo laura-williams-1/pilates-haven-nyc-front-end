@@ -1,5 +1,7 @@
+import Studio from "../Components/Studio";
+
 const Index = () => {
-  return <h1>Index Component</h1>;
+  return <Studio></Studio>;
 };
 
 export default Index;
