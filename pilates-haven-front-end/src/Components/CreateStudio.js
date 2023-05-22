@@ -90,7 +90,7 @@ const CreateStudio = () => {
 
         <label htmlFor="state">State:</label>
         <select id="state" value={studio.state} onChange={handleTextChange}>
-          {/* options for states */}
+          <option value="NY">NY</option>
         </select>
         <label htmlFor="phone_number">Phone Number:</label>
         <input

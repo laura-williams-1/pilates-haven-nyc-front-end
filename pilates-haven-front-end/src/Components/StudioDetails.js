@@ -120,7 +120,7 @@ const StudioDetails = () => {
           </ul>
         </div>
         <div className="edit-button">
-          <Link to={`/products/${id}/edit`}>
+          <Link to={`/studios/${id}/edit`}>
             <button>Edit</button>
           </Link>
         </div>
