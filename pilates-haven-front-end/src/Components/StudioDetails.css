@@ -1,0 +1,57 @@
+.studio {
+  text-align: center;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #fffbfb;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.studio h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.studio p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.studio a {
+  color: #333;
+  text-decoration: none;
+}
+
+.studio a:hover {
+  text-decoration: underline;
+}
+
+.studio .Offers {
+  margin-top: 20px;
+}
+
+.studio .Offers h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.studio .Offers ul {
+  list-style: none;
+  font-size: 16px;
+  color: #666;
+}
+
+.studio .Offers ul:after {
+  content: "✓ ";
+  margin-right: 5px;
+  color: #008000;
+}
+
+.studio .Offers p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
