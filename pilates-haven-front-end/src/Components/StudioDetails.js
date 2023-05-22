@@ -27,6 +27,12 @@ const StudioDetails = () => {
       .catch((e) => console.warn("error", e));
   };
 
+  const handleDelete = () => {
+    if (window.confirm("Are you sure you want to delete?")) {
+      deleteStudio();
+    }
+  };
+
   return (
     <>
       <div className="studio">
@@ -119,7 +125,7 @@ const StudioDetails = () => {
           </Link>
         </div>
         <div className="delete-button">
-          <button>Delete</button>
+          <button onClick={handleDelete}>Delete</button>
         </div>
       </div>
     </>
