@@ -1,0 +1,47 @@
+.studio-form {
+  text-align: center;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #fffbfb;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.studio-form h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.studio-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.studio-form input,
+.studio-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.studio-form input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+}
+
+.studio-form .submit_button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.studio-form .submit_button:hover {
+  background-color: #667;
+}
