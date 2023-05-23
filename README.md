@@ -11,7 +11,9 @@
     Populates further information on each stuido, location, classes offered, and studio contact info 
     
  /studios/new
-      Bring you to a new page for users to add a studio 
+ 
+     Bring you to a new page for users to add a studio 
       
  /studios/edit
+ 
       Allow users to edit any information on a spefic studi page
