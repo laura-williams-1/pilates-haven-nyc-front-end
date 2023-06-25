@@ -33,7 +33,7 @@
   margin-right: 5px;
 }
 
-.studio-form .submit_button {
+button {
   background-color: #333;
   color: #fff;
   border: none;

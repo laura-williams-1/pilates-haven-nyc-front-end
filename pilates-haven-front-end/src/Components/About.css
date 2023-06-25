@@ -1,0 +1,70 @@
+.about {
+  text-align: center;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #fffbfb;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.892);
+}
+
+.about header {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about .why {
+  margin-top: 20px;
+}
+
+.about .why h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about .why p {
+  font-size: 16px;
+  color: #667;
+  margin-top: 10px;
+}
+
+.about .offers {
+  margin-top: 20px;
+}
+
+.about .offers h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about .offers .Mat,
+.about .offers .Reformer,
+.about .offers .Duets,
+.about .offers .Privates,
+.about .offers .Group,
+.about .offers .Membership,
+.about .offers .New-client {
+  margin-top: 15px;
+}
+
+.about .offers h4 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.about .offers .Mat-details,
+.about .offers .Reformer-details,
+.about .offers .Duets-details,
+.about .offers .Privates-details,
+.about .offers .Group-details,
+.about .offers .Membership-details,
+.about .offers .New-client-details {
+  font-size: 16px;
+  color: #667;
+  margin-top: 5px;
+  box-shadow: #333;
+}

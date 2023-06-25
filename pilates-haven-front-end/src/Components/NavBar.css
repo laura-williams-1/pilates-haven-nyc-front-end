@@ -1,0 +1,14 @@
+.nav-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-div img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.nav-div button {
+  margin-left: 1px; /* Adjust the margin as needed */
+}

@@ -7,6 +7,7 @@ import Update from "./Pages/Update";
 import New from "./Pages/New";
 import NotFound from "./Pages/NotFound";
 import NavBar from "./Components/NavBar";
+import About from "./Components/About";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/studios" element={<Index />} />
+          <Route path="/studios/about" element={<About />} />
           <Route path="/studios/:id" element={<Show />} />
           <Route path="/studios/:id/edit" element={<Update />} />
           <Route path="/studios/new" element={<New />} />
