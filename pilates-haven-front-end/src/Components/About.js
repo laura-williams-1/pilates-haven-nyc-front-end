@@ -1,7 +1,9 @@
 import "./About.css";
+import Button from "react-bootstrap/Button";
 const About = () => {
   return (
     <div>
+      <Button></Button>
       <header>
         <h1>Pilates Haven NYC</h1>
       </header>
