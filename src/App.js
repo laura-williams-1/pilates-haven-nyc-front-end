@@ -8,6 +8,7 @@ import New from "./Pages/New";
 import NotFound from "./Pages/NotFound";
 import NavBar from "./Components/NavBar";
 import About from "./Components/About";
+import Landing from "./Pages/Landing";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/studios/:id" element={<Show />} />
           <Route path="/studios/:id/edit" element={<Update />} />
           <Route path="/studios/new" element={<New />} />
+          <Route path="/welcome" element={<Landing />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
